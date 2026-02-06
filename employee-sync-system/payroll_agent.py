@@ -25,7 +25,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # Paths
-ROOT_DIR = Path(r"C:\Users\z036635\Desktop\lang_proj\demo_mcp_01\employee-sync-system")
+ROOT_DIR = Path(r"C:\Users\Desktop\lang_proj\demo_mcp_01\employee-sync-system")
 DATA_DIR = ROOT_DIR / "data"
 SYNC_PAYLOAD_PATH = DATA_DIR / "sync_payload.json"
 PAYROLL_DB_PATH = DATA_DIR / "payroll_system.db"

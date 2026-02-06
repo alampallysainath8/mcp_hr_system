@@ -15,7 +15,7 @@ logger = logging.getLogger(__name__)
 mcp = FastMCP("HRChangeDetectionServer")
 
 # Paths
-ROOT_DIR = Path(r"C:\Users\z036635\Desktop\lang_proj\demo_mcp_01\employee-sync-system")
+ROOT_DIR = Path(r"C:\Users\Desktop\lang_proj\demo_mcp_01\employee-sync-system")
 DATA_DIR = ROOT_DIR / "data"
 HR_DB_PATH = DATA_DIR / "hr_system.db"
 PAYLOAD_PATH = DATA_DIR / "sync_payload.json"
