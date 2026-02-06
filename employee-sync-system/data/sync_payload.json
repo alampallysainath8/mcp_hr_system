@@ -1,0 +1,41 @@
+{
+  "source_system": "hr_system",
+  "target_system": "payroll_system",
+  "sync_timestamp": "2026-02-07T01:47:50.748543",
+  "total_changes": 1,
+  "changes": [
+    {
+      "log_id": 8,
+      "employee_id": "EMP02",
+      "change_type": "INSERT",
+      "old_values": {},
+      "new_values": {
+        "employee_id": "EMP02",
+        "first_name": "Bhavish  ",
+        "last_name": "patel",
+        "email": "bhavish.patel@company.com",
+        "department": "engineering",
+        "position": "engineering Specialist",
+        "salary": 102000,
+        "status": "active"
+      },
+      "change_timestamp": "2026-02-06 20:17:10",
+      "current_employee_data": {
+        "first_name": "Bhavish  ",
+        "last_name": "patel",
+        "email": "bhavish.patel@company.com",
+        "department": "engineering",
+        "position": "engineering Specialist",
+        "salary": 102000,
+        "status": "active"
+      }
+    }
+  ],
+  "metadata": {
+    "generated_by": "HR Change Detection System",
+    "sync_id": "SYNC_20260207_014750",
+    "status": "processed",
+    "processed_timestamp": "2026-02-07T01:47:54.872393",
+    "processed_by": "Payroll System Agent"
+  }
+}
